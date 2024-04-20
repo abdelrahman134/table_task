@@ -1,0 +1,37 @@
+table{
+width: 100%;
+    
+    max-width: 1000px;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 20px;
+  
+    overflow: hidden;
+  tr{
+   
+    th{
+        
+        padding: 15px 20px;
+         background-color:  #635BFF;
+         color: rgba(255, 255, 255, 0.8);
+         
+        
+}
+td{
+    
+     border: 1px solid rgb(51, 50, 50,0.2);
+     input{
+        background-color: transparent;
+        border: none;
+        
+        font-size: 20px;
+     }
+     .price:focus{
+      outline: 1px solid blue;
+      padding:10px 5px;
+      border-radius: 10px;
+     }
+   
+}
+
+}
+}

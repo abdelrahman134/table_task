@@ -27,6 +27,10 @@
 .App-link {
   color: #61dafb;
 }
+.focused-input {
+  border: 2px solid blue;
+  background-color: yellow;
+}
 
 @keyframes App-logo-spin {
   from {
