@@ -25,7 +25,7 @@ function Product() {
           )
           toast.success("Item updated successfully!");;
         } catch (error) {
-          toast.error("Error adding item: " + error);
+          
         }
       };
 
@@ -153,11 +153,9 @@ const handlePagination=(val)=>{
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
-        closeOnClick
+   
         rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
+
       />
     </Box>
   );
