@@ -23,7 +23,7 @@ function Product() {
             axios.put("http://16.170.247.231:3003/items", [item])
 
           )
-          toast.success("Item updated successfully!");;
+          // toast.success("Item updated successfully!");;
         } catch (error) {
           
         }
@@ -148,7 +148,7 @@ const handlePagination=(val)=>{
           </Button>
         </Box>
       </Box>
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={5000}
         hideProgressBar={false}
@@ -156,7 +156,7 @@ const handlePagination=(val)=>{
    
         rtl={false}
 
-      />
+      /> */}
     </Box>
   );
 }

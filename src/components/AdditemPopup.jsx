@@ -47,7 +47,7 @@ const Modalpopup = () => {
         try {
       await axios.post("http://16.170.247.231:3003/items", itemData);
       
-      toast.success("Item added successfully!");
+    //   toast.success("Item added successfully!");
         setItemData({
           name: "",
           model: "",
@@ -58,7 +58,7 @@ const Modalpopup = () => {
 
     } catch (error) {
 
-      toast.error("Error adding item: " + error);
+    //   toast.error("Error adding item: " + error);
 
     }
     closepopup()
@@ -148,14 +148,12 @@ const Modalpopup = () => {
           </Stack>
         </DialogContent>
       </Dialog>
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        rtl={false}
 
-      />
+
+      /> */}
     </div>
   );
 };
